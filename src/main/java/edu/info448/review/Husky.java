@@ -15,6 +15,6 @@ public class Husky extends Dog implements Huggable {
 	}
 
 	public void hug() {
-		System.out.println(this + "hugs you!")
+		System.out.println(this + "hugs you!");
 	}
 }
