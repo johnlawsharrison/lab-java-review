@@ -20,10 +20,10 @@ public class Tester {
 		husky.pullSled();
 
 		ArrayList<Huggable> hugList = new ArrayList<Huggable>();
-		hugList.add(new Husky());
+		hugList.add(new Husky("Max"));
 		hugList.add(new TeddyBear());
 
-		for(Huggabble thing : hugList) {
+		for (Huggable thing : hugList) {
 		    thing.hug();
 		}
 	}
