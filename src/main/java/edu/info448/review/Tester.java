@@ -18,5 +18,13 @@ public class Tester {
 		Husky husky = new Husky("Dubs");
 		husky.bark();
 		husky.pullSled();
+
+		ArrayList<Huggable> hugList = new ArrayList<Huggable>();
+		hugList.add(new Husky());
+		hugList.add(new TeddyBear());
+
+		for(Huggabble thing : hugList) {
+		    thing.hug();
+		}
 	}
 }
