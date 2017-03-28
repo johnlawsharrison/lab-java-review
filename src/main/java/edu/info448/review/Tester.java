@@ -27,5 +27,7 @@ public class Tester {
 		    thing.hug();
 		}
 
+		GiftBox<Husky> huskyBox = new GiftBox<Husky>(husky);
+		System.out.println("You found " + huskyBox.openGift() + " in a gift box. That's animal cruelty.");
 	}
 }
