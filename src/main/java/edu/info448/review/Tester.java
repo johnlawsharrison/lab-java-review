@@ -26,5 +26,6 @@ public class Tester {
 		for (Huggable thing : hugList) {
 		    thing.hug();
 		}
+
 	}
 }
